@@ -66,7 +66,9 @@ export default function ContactSection() {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-medium text-gray-900 mb-1 text-sm sm:text-base">Phone</div>
+                    <div className="font-medium text-gray-900 mb-1 text-sm sm:text-base">
+                      Phone
+                    </div>
                     <a
                       href="tel:+17186715544"
                       className="text-gray-600 hover:text-gray-900 transition-colors text-sm sm:text-base"
