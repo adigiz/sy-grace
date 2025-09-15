@@ -92,7 +92,7 @@ const categories = [
 ];
 
 export default function CategoriesSection() {
-  const [expandedCard, setExpandedCard] = useState<number | null>(null);
+  const [expandedCard, setExpandedCard] = useState<number | null>(0);
 
   const toggleCard = (index: number) => {
     setExpandedCard(expandedCard === index ? null : index);
@@ -224,7 +224,7 @@ export default function CategoriesSection() {
                   {/* Collapsed State - Image at Bottom without padding */}
                   {expandedCard !== index && (
                     <div className="mt-auto">
-                      <div className="relative h-32 sm:h-48 w-full">
+                      <div className="relative h-48 w-full">
                         <Image
                           src={category.image}
                           alt={category.title}

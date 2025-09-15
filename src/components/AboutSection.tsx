@@ -6,10 +6,10 @@ export default function AboutSection() {
   return (
     <>
       {/* Mobile Layout */}
-      <section className="py-16 sm:py-20 bg-white md:hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-white md:hidden">
+        <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
           {/* Top Section - White Background */}
-          <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden mb-8">
+          <div className="bg-white shadow-none lg:shadow-2xl overflow-hidden">
             <div className="p-6 sm:p-8 lg:p-12">
               {/* About us tag */}
               <div className="mb-6">
@@ -54,48 +54,22 @@ export default function AboutSection() {
           </div>
 
           {/* Middle Section - Video */}
-          <div className="bg-gray-100 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden mb-8">
-            <div className="relative p-6 sm:p-8 lg:p-12">
+          <div className="bg-gray-100 shadow-2xl overflow-hidden">
+            <div className="relative p-0 sm:p-8 lg:p-12">
               <div className="aspect-video w-full relative">
                 <iframe
                   src="https://www.youtube.com/embed/Vu1q0bY1FiE"
                   title="SY Grace Market Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-full"
                 ></iframe>
-
-                {/* Play button overlay */}
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-full flex items-center justify-center shadow-lg">
-                    <svg
-                      className="w-6 h-6 sm:w-8 sm:h-8 text-gray-800 ml-1"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                </div>
-
-                {/* Logo in bottom right */}
-                <div className="absolute bottom-4 right-4">
-                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
-                    <Image
-                      src="/logo.png"
-                      alt="S&Y Grace Caribbean Market"
-                      width={32}
-                      height={32}
-                      className="object-contain rounded-full"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
 
           {/* Bottom Section - Yellow Background */}
-          <div className="bg-[#F3E849] rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden">
+          <div className="bg-[#F3E849] shadow-none lg:shadow-2xl overflow-hidden">
             <div className="p-6 sm:p-8 lg:p-12 text-center">
               {/* Salad icon */}
               <div className="mb-6 flex justify-center">

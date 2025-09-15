@@ -91,7 +91,7 @@ export default function SubscribeSection() {
                     {/* Subscribe Button - Inside the input */}
                     <button
                       type="submit"
-                      className="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white font-medium py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-gray-800 transition-all duration-300 hover:scale-105 text-xs sm:text-sm"
+                      className="absolute right-2 sm:right-2 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white font-medium py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-gray-800 transition-all duration-300 hover:scale-105 text-xs sm:text-sm"
                     >
                       Subscribe
                     </button>

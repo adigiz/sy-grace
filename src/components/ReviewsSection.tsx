@@ -190,7 +190,7 @@ export default function ReviewsSection() {
                   key={`top-${index}`}
                   className="flex-shrink-0 w-72 sm:w-80 mx-2 sm:mx-4"
                 >
-                  <div className="bg-white rounded-2xl p-4 sm:p-6 shadow-lg h-40 sm:h-48">
+                  <div className="bg-white rounded-2xl p-4 sm:p-6 h-40 sm:h-48 border border-gray-200">
                     <div className="flex items-center gap-1 mb-2 sm:mb-3">
                       {[...Array(5)].map((_, i) => (
                         <svg
@@ -242,7 +242,7 @@ export default function ReviewsSection() {
                     key={`bottom-${index}`}
                     className="flex-shrink-0 w-72 sm:w-80 mx-2 sm:mx-4"
                   >
-                    <div className="bg-white rounded-2xl p-4 sm:p-6 shadow-lg h-40 sm:h-48">
+                    <div className="bg-white rounded-2xl p-4 sm:p-6 h-40 sm:h-48 border border-gray-200">
                       <div className="flex items-center gap-1 mb-2 sm:mb-3">
                         {[...Array(5)].map((_, i) => (
                           <svg
