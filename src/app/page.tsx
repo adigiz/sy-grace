@@ -26,9 +26,9 @@ export default function Home() {
       </div>
       <CommunitySection />
       <ReviewsSection />
-      <div id="social">
+      {/* <div id="social">
         <InstagramSection />
-      </div>
+      </div> */}
       <div id="contact">
         <ContactSection />
       </div>
