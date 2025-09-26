@@ -19,34 +19,6 @@ const categories = [
     ],
   },
   {
-    title: "CARIBBEAN SEASONINGS & SAUCES",
-    description: "Authentic seasonings, sauces, and flavor enhancers",
-    image: "/sauces.png",
-    color: "#F3E849",
-    lightColor: "#FDFCE8",
-    textColor: "#000000",
-    items: [
-      "Jerk Seasoning & Maggi",
-      "Grace Hot Sauce",
-      "Scotch Bonnet Peppers",
-      "Traditional Curry Blends",
-    ],
-  },
-  {
-    title: "FROZEN CARIBBEAN",
-    description: "Frozen tropical fruits and Caribbean frozen foods",
-    image: "/frozen.png",
-    color: "#A328B4",
-    lightColor: "#F5E6F7",
-    textColor: "#A328B4",
-    items: [
-      "Frozen Breadfruit",
-      "Frozen Ackee & Soursop",
-      "Caribbean Ice Cream",
-      "Frozen Fish & Patties",
-    ],
-  },
-  {
     title: "FRESH TROPICAL PRODUCE",
     description:
       "Authentic Caribbean fruits and vegetables imported fresh weekly",
@@ -73,6 +45,34 @@ const categories = [
       "Bammy & Coco Bread",
       "St Mary Banana Chips",
       "Chippies & Tastee Cheese",
+    ],
+  },
+  {
+    title: "CARIBBEAN SEASONINGS & SAUCES",
+    description: "Authentic seasonings, sauces, and flavor enhancers",
+    image: "/sauces.png",
+    color: "#F3E849",
+    lightColor: "#FDFCE8",
+    textColor: "#000000",
+    items: [
+      "Jerk Seasoning & Maggi",
+      "Grace Hot Sauce",
+      "Scotch Bonnet Peppers",
+      "Traditional Curry Blends",
+    ],
+  },
+  {
+    title: "FROZEN CARIBBEAN",
+    description: "Frozen tropical fruits and Caribbean frozen foods",
+    image: "/frozen.png",
+    color: "#A328B4",
+    lightColor: "#F5E6F7",
+    textColor: "#A328B4",
+    items: [
+      "Frozen Breadfruit",
+      "Frozen Ackee & Soursop",
+      "Caribbean Ice Cream",
+      "Frozen Fish & Patties",
     ],
   },
   {
@@ -109,7 +109,7 @@ export default function CategoriesSection() {
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
-            West Indie Favorites
+            Everything you need is at S&Y Grace
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-500 max-w-2xl mx-auto font-medium">
             Everything you need is under the roof

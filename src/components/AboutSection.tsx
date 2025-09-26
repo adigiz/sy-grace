@@ -23,11 +23,10 @@ export default function AboutSection() {
                 Bringing the Taste of the Caribbean Home
               </h2>
 
-              {/* EST. 1997 section */}
               <div className="mb-8">
                 <div className="inline-flex items-center bg-[#FEFEF6] text-black px-4 py-2 rounded-lg">
                   <span className="font-bold text-lg text-[#057857]">
-                    EST. 1997
+                    EST. 1994
                   </span>
                 </div>
                 <span className="ml-2 text-sm">
@@ -38,7 +37,7 @@ export default function AboutSection() {
               {/* Description text */}
               <div className="text-gray-600 leading-relaxed text-base sm:text-lg">
                 <p>
-                  SSY Grace Caribbean West Indian Supermarket has been the
+                  SY Grace Caribbean West Indian Supermarket has been the
                   Northeast&apos;s{" "}
                   <span className="text-red-600 font-semibold">
                     premier destination
@@ -120,7 +119,7 @@ export default function AboutSection() {
                   <div className="mb-8">
                     <div className="inline-flex items-center bg-green-100 text-black px-4 py-2 rounded-lg">
                       <span className="font-bold text-lg text-[#057857]">
-                        EST. 1997
+                        EST. 1994
                       </span>
                     </div>
                     <span className="ml-2 text-sm">
@@ -131,7 +130,7 @@ export default function AboutSection() {
                   {/* Description text */}
                   <div className="space-y-6 text-md text-gray-600 leading-relaxed">
                     <p>
-                      SSY Grace Caribbean West Indian Supermarket has been the
+                      SY Grace Caribbean West Indian Supermarket has been the
                       Northeast&apos;s{" "}
                       <span className="text-red-600">premier destination</span>{" "}
                       for authentic Caribbean foods and culture. We take immense
